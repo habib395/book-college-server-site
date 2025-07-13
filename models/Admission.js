@@ -2,12 +2,12 @@ const mongoose = require("mongoose")
 
 const admissionSchema = new mongoose.Schema({
     collegeId: String,
-    candidateName: String,
+    name: String,
     subject: String,
     email: String,
     phone: String,
     address: String,
-    dateOfBirth: String,
+    dob: String,
     image: String
 })
 
