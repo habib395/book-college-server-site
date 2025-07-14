@@ -1,5 +1,5 @@
-"use strict";
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
+
 const admissionSchema = new mongoose.Schema({
     userEmail: String,
     collegeId: String,
@@ -9,6 +9,7 @@ const admissionSchema = new mongoose.Schema({
     phone: String,
     address: String,
     dob: String,
-    image: String
-});
-module.exports = mongoose.model("Admission", admissionSchema);
+    image: String 
+})
+
+module.exports = mongoose.model("Admission" ,admissionSchema)
